@@ -1,6 +1,6 @@
 # Pancreatic-cancer-drugs-analysis
 
-![Twitter](https://img.shields.io/twitter/url/https/twitter.com/tossingdata.svg?style=social&label=Follow%20%40tossingdata)](https://twitter.com/tossingdata)
+[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/tossingdata.svg?style=social&label=Follow%20%40tossingdata)](https://twitter.com/tossingdata)
 [![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MSI17819)
 
 ### General information
