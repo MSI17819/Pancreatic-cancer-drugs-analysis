@@ -4,11 +4,10 @@
 [![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MSI17819)
 
 ### General information
-The Pancreatic cancer drugs analysis 
+Pancreatic cancer drug analysis showed a list of FDA-approved drugs for pancreatic cancer. After preprocessing the dataset and visualising the molecules, we learn a better mechanism of action. What molecule the drug acts on.
 
 ### Dataset
-The dataset contains a table with each team's position, wins, losses, draws and goals.
-The table is linked to a graph where you can find the position of the team related to the number of matches played. Each point shows the position after matches of round 1, 2, 3 and is updated after each league round.
+The dataset contains a list of FDA-approved pancreatic cancer drugs with a smile format updated from the CheMBL database. Each molecule was displayed in a visual format from RDKit. Each molecule was then linked to a mechanism of action. The mechanism of action allows us to better understand the relationship of which molecule is exactly the target of our anticancer drugs. For example, the molecule CHEMBL481 (Irinotecan) targets CHEMBL1781, which is a single DNA topoisomerase I protein.
 
 ## Technology stack
 
@@ -20,21 +19,19 @@ The table is linked to a graph where you can find the position of the team relat
 ### Packages for data pre-processing
 - [Numpy](https://numpy.org/)
 - [Pandas](https://numpy.org/)
-- [Streamlit](https://streamlit.io/)
+- [RDkit](https://www.rdkit.org/)
 - [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
-- [highlight_text](https://github.com/znstrider/highlight_text)
-- [mplsoccer](https://mplsoccer.readthedocs.io/en/latest/#)
+- [ChEMBL webresource client]([https://github.com/znstrider/highlight_text](https://github.com/chembl/chembl_webresource_client))
 
 ### Data visualisation library
-- [Matplotlib](https://matplotlib.org/)
-- [Bumpy Chart](https://mplsoccer.readthedocs.io/en/latest/gallery/bumpy_charts/plot_bumpy.html)
+- [RDkit](https://www.rdkit.org/)
+
 ## Status
 
 Project is: _in progress_
 
 ## Room for Improvement
 
-In the future project can be improved by:
+What's next.
 
-- adding more information on player and team statistics
-- adding different visuals for the league and players
+- using the ML technique to better understand which group of drugs could potentially be new drug candidates for pancreatic cancer
