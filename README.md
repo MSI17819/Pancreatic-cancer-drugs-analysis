@@ -21,7 +21,7 @@ The dataset contains a list of FDA-approved pancreatic cancer drugs with a smile
 - [Pandas](https://numpy.org/)
 - [RDkit](https://www.rdkit.org/)
 - [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
-- [ChEMBL webresource client]([https://github.com/znstrider/highlight_text](https://github.com/chembl/chembl_webresource_client))
+- [ChEMBL webresource client](https://github.com/chembl/chembl_webresource_client)
 
 ### Data visualisation library
 - [RDkit](https://www.rdkit.org/)
